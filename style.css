@@ -139,3 +139,114 @@ nav button:hover {
   color: #0e0e0e;
   opacity: 70%;
 }
+
+.the-vision-of-future {
+  display: grid;
+  row-gap: 32px;
+  padding: 0 60px;
+}
+
+.headline {
+  display: grid;
+  gap: 24px;
+  color: #0e0e0e;
+}
+
+.headline h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.headline p {
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 70%;
+}
+
+.vision-future-cards {
+  display: flex;
+  column-gap: 24px;
+  justify-content: space-evenly;
+  height: 100%;
+  box-sizing: border-box;
+  align-items: stretch;
+}
+
+.vision-future-card {
+  display: grid;
+  row-gap: 24px;
+  padding: 32px;
+  border: 1px solid;
+  border-radius: 16px;
+  flex: 1;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.vision-future-card button {
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 11px 20px;
+  align-self: flex-end;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.vision-future-card h1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0e0e0e;
+  opacity: 80%;
+}
+
+.vision-future-card p {
+  font-size: 16px;
+  font-weight: normal;
+  color: #0e0e0e;
+  opacity: 70%;
+  line-height: 24px;
+}
+
+.vision-future-card .texts {
+  display: grid;
+  row-gap: 12px;
+  flex-grow: 1;
+}
+
+.vision-future-card:nth-child(1) {
+  background-color: rgba(84, 144, 245, 0.2);
+  border-color: #5490f5;
+}
+
+.vision-future-card:nth-child(1) button {
+  background-color: #5490f5;
+  border-color: #5490f5;
+}
+
+.shorten-container {
+  display: grid;
+  gap: 24px;
+  align-self: flex-start;
+}
+
+.vision-future-card:nth-child(2) {
+  background-color: #c6e4d6;
+  border-color: #09a15c;
+}
+
+.vision-future-card:nth-child(2) button {
+  background-color: #09a15c;
+  border-color: #09a15c;
+}
+
+.vision-future-card:nth-child(3) {
+  background-color: #f7ebcf;
+  border-color: #ffc239;
+}
+
+.vision-future-card:nth-child(3) button {
+  background-color: #ffc239;
+  border-color: #ffc239;
+}
