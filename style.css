@@ -225,6 +225,10 @@ nav button:hover {
   border-color: #5490f5;
 }
 
+.vision-future-card:nth-child(1) button:hover {
+  background-color: #326dc5;
+}
+
 .shorten-container {
   display: grid;
   gap: 24px;
@@ -241,6 +245,10 @@ nav button:hover {
   border-color: #09a15c;
 }
 
+.vision-future-card:nth-child(2) button:hover {
+  background-color: #0c7546;
+}
+
 .vision-future-card:nth-child(3) {
   background-color: #f7ebcf;
   border-color: #ffc239;
@@ -249,4 +257,8 @@ nav button:hover {
 .vision-future-card:nth-child(3) button {
   background-color: #ffc239;
   border-color: #ffc239;
+}
+
+.vision-future-card:nth-child(3) button:hover {
+  background-color: #d19a19;
 }
