@@ -419,3 +419,71 @@ input {
     background-color: #099975;
   }
 }
+
+.newsletter-container {
+  display: grid;
+  gap: 64px;
+  padding: 0 60px;
+}
+
+.newsletter {
+  display: flex;
+  row-gap: 24px;
+  padding: 80px;
+  background-color: #c6e4d6;
+  border-radius: 24px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter .texts {
+  display: grid;
+  row-gap: 24px;
+}
+
+.subscribe {
+  row-gap: 16px;
+}
+
+.subscribe-func {
+  display: flex;
+  column-gap: 0px;
+}
+
+.subscribe-func input {
+  padding: 18px 40px;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  color: rgba(14, 14, 14, 0.3);
+  font-family: "Fira Sans", sans-serif;
+  width: 600px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.subscribe-func button {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #006a50;
+  padding: 17px 34px;
+
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+
+  border: 1px solid #006a50;
+
+  &:hover {
+    background-color: #099975;
+  }
+}
+
+.no-spam {
+  font-size: 16px;
+  font-weight: normal;
+  color: #0e0e0e;
+  opacity: 70%;
+}
