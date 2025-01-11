@@ -148,7 +148,6 @@ nav button:hover {
 
 .headline {
   display: grid;
-  gap: 24px;
   color: #0e0e0e;
 }
 
@@ -161,6 +160,10 @@ nav button:hover {
   font-size: 16px;
   font-weight: normal;
   opacity: 70%;
+}
+
+.the-vision-of-future .headline {
+  row-gap: 24px;
 }
 
 .vision-future-cards {
@@ -231,7 +234,7 @@ nav button:hover {
 
 .shorten-container {
   display: grid;
-  gap: 24px;
+  row-gap: 24px;
   align-self: flex-start;
 }
 
