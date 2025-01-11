@@ -266,6 +266,49 @@ nav button {
   }
 }
 
+.quote {
+  display: grid;
+  padding: 48px 24px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  color: rgba(14, 14, 14, 0.8);
+}
+
+.quote .headline {
+  row-gap: 12px;
+}
+
+.quote-container {
+  position: relative;
+}
+
+.quote-container::before {
+  content: "";
+  position: absolute;
+  top: -16px;
+  left: 0px;
+  width: 64px;
+  height: 64px;
+  background-image: url("./assets/quote-bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.quote .headline h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.quote .headline p:first-child {
+  line-height: 24px;
+  text-align: justify;
+}
+
+.quote .headline p:last-child {
+  color: rgba(14, 14, 14, 0.6);
+}
+
 .recent-news {
   display: grid;
   row-gap: 32px;
