@@ -14,7 +14,7 @@ body {
 
 main {
   display: grid;
-  gap: 80px;
+  row-gap: 80px;
 }
 
 nav {
@@ -46,7 +46,7 @@ nav button:hover {
 .banner {
   padding: 80px 60px;
   display: flex;
-  gap: 64px;
+  column-gap: 64px;
   background-color: #c6e4d6;
   justify-self: center;
   align-items: center;
@@ -55,12 +55,12 @@ nav button:hover {
 
 .banner-details {
   display: grid;
-  gap: 24px;
+  row-gap: 24px;
 }
 
 .banner-texts {
   display: grid;
-  gap: 16px;
+  row-gap: 16px;
 }
 
 .banner h4 {
@@ -82,7 +82,7 @@ nav button:hover {
   color: #ffffff;
   padding: 17px 34px;
   width: fit-content;
-  gap: 48px;
+  column-gap: 48px;
   background-color: #006a50;
   border: 1px solid #006a50;
   border-radius: 8px;
@@ -95,7 +95,7 @@ nav button:hover {
 
 .optional-section-1 {
   display: grid;
-  gap: 32px;
+  row-gap: 32px;
   padding: 0 60px;
 }
 
@@ -107,13 +107,14 @@ nav button:hover {
 
 .cards-piller {
   display: flex;
-  gap: 24px;
+  column-gap: 24px;
+  justify-content: space-evenly;
 }
 
 .card-piller {
   display: grid;
   padding: 24px;
-  gap: 24px;
+  row-gap: 24px;
   border: 1px solid rgba(14, 14, 14, 0.5);
   background-color: #ffffff;
   border-radius: 16px;
@@ -121,7 +122,7 @@ nav button:hover {
 
 .card-piller-texts {
   display: grid;
-  gap: 12px;
+  row-gap: 12px;
 }
 
 .card-piller-texts h3 {
