@@ -333,3 +333,82 @@ nav button:hover {
 .recent-news-card button:hover {
   background-color: #099975;
 }
+
+.donate-for-bd {
+  display: grid;
+  row-gap: 32px;
+  place-content: center;
+}
+
+.donate-for-bd .headline {
+  display: grid;
+  row-gap: 32px;
+}
+
+.donate-for-bd .headline h1,
+p {
+  text-align: center;
+}
+
+.donation-amount {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+  justify-content: center;
+}
+
+.donation-amount button {
+  gap: 24px;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  border-color: rgba(14, 14, 14, 0.15);
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.donation-amount button:nth-child(2) {
+  gap: 24px;
+  padding: 40px;
+  background-color: #c6e4d6;
+  border-radius: 16px;
+  border-color: rgba(14, 14, 14, 0.15);
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.donation-amount button:focus {
+  background-color: #c6e4d6;
+}
+
+.donation-amount button:hover {
+  background-color: #5d9279;
+}
+
+input {
+  box-sizing: border-box;
+  padding: 20px 40px;
+  row-gap: 24px;
+  background-color: #ffffff;
+  text-align: center;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  font-size: 20px;
+  font-weight: normal;
+  color: rgba(14, 14, 14, 0.3);
+  width: 95%;
+  place-self: center;
+}
+
+.donate-now {
+  background-color: #006a50;
+  padding: 17px 34px;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  width: fit-content;
+  place-self: center;
+}
