@@ -265,3 +265,71 @@ nav button:hover {
 .vision-future-card:nth-child(3) button:hover {
   background-color: #d19a19;
 }
+
+.recent-news {
+  display: grid;
+  row-gap: 32px;
+  padding: 0 60px;
+}
+
+.recent-news .headline {
+  row-gap: 32px;
+}
+
+.recent-news-cards {
+  display: grid;
+  row-gap: 24px;
+}
+
+.recent-news-card {
+  display: flex;
+  column-gap: 32px;
+  padding: 48px;
+  background-color: #ffffff;
+  border-radius: 24px;
+}
+
+.recent-news-card img {
+  border-radius: 24px;
+}
+
+.recent-news-card .texts {
+  display: grid;
+}
+
+.news {
+  display: grid;
+  row-gap: 12px;
+}
+
+.news h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0e0e0e;
+  opacity: 80%;
+}
+
+.news img {
+  border-radius: 0;
+}
+
+.release-time {
+  display: flex;
+  column-gap: 12px;
+}
+
+.recent-news-card button {
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 13px 26px;
+  align-self: flex-end;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  width: fit-content;
+  background-color: #006a50;
+}
+
+.recent-news-card button:hover {
+  background-color: #099975;
+}
