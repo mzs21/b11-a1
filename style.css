@@ -585,14 +585,13 @@ input {
 .footer {
   display: grid;
   gap: 32px;
-  background-color: #ffffff;
 }
 
 .footer-container {
   display: grid;
   row-gap: 24px;
   padding: 50px 60px;
-
+  background-color: #ffffff;
   text-align: center;
 }
 
