@@ -345,8 +345,11 @@ nav button {
   row-gap: 32px;
 }
 
-.donate-for-bd .headline h1,
-p {
+.donate-for-bd .headline h1 {
+  text-align: center;
+}
+
+.donate-for-bd .headline p {
   text-align: center;
 }
 
