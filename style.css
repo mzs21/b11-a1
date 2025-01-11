@@ -37,10 +37,10 @@ nav button {
   font-weight: 18px;
   font-weight: 600;
   font-family: "Fira Sans", sans-serif;
-}
 
-nav button:hover {
-  background-color: #04ca99;
+  &:hover {
+    background-color: #04ca99;
+  }
 }
 
 .banner {
@@ -87,10 +87,10 @@ nav button:hover {
   border: 1px solid #006a50;
   border-radius: 8px;
   font-family: "Fira Sans", sans-serif;
-}
 
-.banner button:hover {
-  background-color: #099975;
+  &:hover {
+    background-color: #099975;
+  }
 }
 
 .optional-section-1 {
@@ -226,10 +226,10 @@ nav button:hover {
 .vision-future-card:nth-child(1) button {
   background-color: #5490f5;
   border-color: #5490f5;
-}
 
-.vision-future-card:nth-child(1) button:hover {
-  background-color: #326dc5;
+  &:hover {
+    background-color: #326dc5;
+  }
 }
 
 .shorten-container {
@@ -246,10 +246,10 @@ nav button:hover {
 .vision-future-card:nth-child(2) button {
   background-color: #09a15c;
   border-color: #09a15c;
-}
 
-.vision-future-card:nth-child(2) button:hover {
-  background-color: #0c7546;
+  &:hover {
+    background-color: #0c7546;
+  }
 }
 
 .vision-future-card:nth-child(3) {
@@ -260,10 +260,10 @@ nav button:hover {
 .vision-future-card:nth-child(3) button {
   background-color: #ffc239;
   border-color: #ffc239;
-}
 
-.vision-future-card:nth-child(3) button:hover {
-  background-color: #d19a19;
+  &:hover {
+    background-color: #d19a19;
+  }
 }
 
 .recent-news {
@@ -328,10 +328,10 @@ nav button:hover {
   font-weight: 600;
   width: fit-content;
   background-color: #006a50;
-}
 
-.recent-news-card button:hover {
-  background-color: #099975;
+  &:hover {
+    background-color: #099975;
+  }
 }
 
 .donate-for-bd {
@@ -411,4 +411,8 @@ input {
   font-weight: 600;
   width: fit-content;
   place-self: center;
+
+  &:hover {
+    background-color: #099975;
+  }
 }
